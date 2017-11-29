@@ -49,7 +49,7 @@ app.get('/movie/:id', function (req, res) {
         movie: {
             title:'机械战警',
             summary:'这是第一次学习nodeJs，希望自己每天都进步一些，在技术的海洋里沉迷知识的渗透',
-            flash:'http://v.youku.com/v_show/id_XMzE5MDMzMjkxNg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!3~5~5~A&f=51356442',
+            flash:'http://v.youku.com/v_show/id_XMzE5MTk0NzgxMg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A',
             doctor:'阿里扎',
             year:'2014',
             country:'美国',
