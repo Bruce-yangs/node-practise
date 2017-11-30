@@ -1,8 +1,12 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');//连接数据库
 var path = require('path');
 var port = process.env.PORT || 3000;//设置全局变量
 var app = express();//启动web服务器
+
+/*调用数据库*/
+mongoose.connect('mongodb://localhost/leying')
 
 app.set('views', './views/pages');//设置视图的根目录
 app.set('view engine', 'jade');//设置视图的模板引擎
